@@ -5,14 +5,12 @@ set title
 set visualbell
 set showmatch
 
-" Cursor
+" Cursor line
 set cursorline
 highlight CursorLine cterm=none ctermbg=black
 
 " Character
 set virtualedit=onemore
-
-" Encode
 
 " Status bar
 set showcmd
@@ -27,7 +25,7 @@ set smartindent
 set ignorecase
 set wrapscan
 set hlsearch
-
+nmap <Esc><Esc> :noh<CR><Esc>
 
 " Clipboard
 set clipboard=unnamed,autoselect
