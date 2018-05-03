@@ -1,10 +1,13 @@
 " General
 syntax on
 set number
-set cursorline
 set title
 set visualbell
 set showmatch
+
+" Cursor
+set cursorline
+highlight CursorLine cterm=none ctermbg=black
 
 " Character
 set virtualedit=onemore
