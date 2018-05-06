@@ -20,6 +20,8 @@ set wildmenu
 " Indent
 set autoindent
 set smartindent
+set expandtab
+set tabstop=4
 
 " Search
 set ignorecase
