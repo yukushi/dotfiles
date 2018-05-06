@@ -18,10 +18,10 @@ set laststatus=2
 set wildmenu
 
 " Indent
-set autoindent
 set smartindent
 set expandtab
 set tabstop=4
+set shiftwidth=4
 
 " Search
 set ignorecase
